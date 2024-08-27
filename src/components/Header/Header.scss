@@ -1,0 +1,18 @@
+@use "../../App.scss" as app;
+
+.header-wrapper {
+    .header-container {
+        box-shadow: 0px 0px 24px 0px rgba(0,0,0,0.16);
+        // height: 64px;
+    }
+
+    .primary-color {
+        color: app.$primary;
+    }
+
+    // .banner-container {
+    //     position: sticky;
+    //     z-index: 6;
+    //     top: 64px !important;
+    // }
+}

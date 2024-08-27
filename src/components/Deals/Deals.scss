@@ -1,0 +1,33 @@
+@use "../../App.scss" as app;
+
+.deals-container {
+
+    .deals-wrapper {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .deals-wrapper::-webkit-scrollbar {
+        width: 0;
+    }
+
+    .deals-wrapper .item {
+        min-width: 230px;
+        height: 100px;
+        margin: 5px;
+        margin-left: 0;
+        margin-right: 8px;
+    }
+
+    .text-resizer-md {
+        font-size: 14px;
+    }
+
+    .text-resizer-sm {
+        font-size: 12px;
+    }
+
+    .discount {
+        color: app.$primary;
+    }
+}

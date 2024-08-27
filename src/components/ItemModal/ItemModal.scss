@@ -1,0 +1,22 @@
+@use "../../App.scss" as app;
+
+.sheet-container {
+
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+
+    .cart {
+        color: app.$primary;
+    }
+
+    .add-cart {
+        background-color: app.$primary;
+        border-color: app.$primary;
+        margin-left: 65px;
+    }
+
+    .instruction {
+        padding-bottom: 160px;
+    }
+
+}

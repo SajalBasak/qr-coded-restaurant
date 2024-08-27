@@ -1,0 +1,17 @@
+@use '../../App.scss' as app;
+
+.restaurant-container {
+    .restaurant-wrapper {
+        height: 106px;
+        width: 106px;
+
+    }
+
+    .text-resizer {
+        font-size: 12px;
+    }
+
+    .reviews {
+        color: app.$primary;
+    }
+}

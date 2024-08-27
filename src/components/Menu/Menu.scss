@@ -1,0 +1,37 @@
+@use "../../App.scss" as app;
+
+.menu-container {
+
+    .nav {
+        box-shadow: 0 14px 28px -12px rgba(0, 0, 0, .12);
+        overflow-x: auto;
+        white-space: nowrap;
+        position: sticky;
+        z-index: 6;
+    }
+
+    a {
+        color: black;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .nav-link.active {
+        color: app.$primary;
+        border-bottom: 4px solid app.$primary;
+    }
+
+    .popular {
+        color: #f0a502;
+    }
+
+    .popular-text {
+        font-size: 17px;
+    }
+
+    .menu-img {
+        width: 120px;
+        height: 105px;
+    }
+
+}
